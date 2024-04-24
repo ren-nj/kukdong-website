@@ -116,7 +116,7 @@ html, body {
 .firstpage-container {
   position: relative;
   overflow: hidden;
-  padding-top: 30%;
+  padding-top: 15%;
 }
 
 .firstpage-img {
@@ -130,7 +130,7 @@ html, body {
   position: absolute;
   z-index: 1;
   overflow: hidden;
-  padding-top: 10%;
+  padding-top: 13%;
 }
 
 .firstpage-intro-main {
