@@ -4,6 +4,34 @@ html, body {
   position: relative;
 }
 
+#renewPopup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 20vw;
+  height: auto;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+#renewPopup img {
+  width: 100%;
+}
+
+#renewPopup button {
+  background: none;
+  color: black;
+  font-size: 1vw;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  border: none;
+}
+
+#renewPopup button:hover {
+  font-weight: bold;
+}
+
 /*HEADER*/
 
 #header .fe-logo {
