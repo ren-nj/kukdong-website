@@ -6,7 +6,7 @@ html, body {
 
 #renewPopup {
   position: fixed;
-  top: 50%;
+  top: 30%;
   left: 50%;
   width: 20vw;
   height: auto;
@@ -16,6 +16,7 @@ html, body {
 
 #renewPopup img {
   width: 100%;
+  position: fixed;
 }
 
 #renewPopup button {
@@ -23,8 +24,8 @@ html, body {
   color: black;
   font-size: 1vw;
   position: absolute;
-  top: 30px;
-  right: 30px;
+  right: 8%;
+  margin-top: 6%;
   border: none;
 }
 

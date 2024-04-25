@@ -20,3 +20,16 @@ function ProductPopUp(modalID) {
 function closeProductPopUp(modalID) {
   document.getElementById(modalID).style.display = 'none';
 }
+
+/*Navigation Pages*/
+
+function redirectToCompany() {
+  window.open('/company.html', 'newwindow');
+}
+
+function scrollToSection(sectionID) {
+  const section = document.getElementById(sectionID);
+  if (section) {
+    section.scrollIntoView({behavior: 'smooth'});
+  }
+}
