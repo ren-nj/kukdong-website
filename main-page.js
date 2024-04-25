@@ -24,7 +24,7 @@ function closeProductPopUp(modalID) {
 /*Navigation Pages*/
 
 function redirectToCompany() {
-  window.open('/company.html', 'newwindow');
+  window.location.href = '/company.html';
 }
 
 function scrollToSection(sectionID) {
