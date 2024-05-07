@@ -14,16 +14,11 @@ html, body {
   z-index: 1000;
 }
 
-iframe {
-  width: 500vw;
-  height: 300vh;
-  max-width: 500px;
-  max-height: 300px;
-  position: fixed;
-  top: 10%;
-  left: 80%;
-  z-index: 2;
+.firstpage-container {
+  position: relative;
 }
+
+
 
 #renewPopup img {
   width: 100%;
@@ -62,6 +57,18 @@ iframe {
   padding: 0 20px;
   z-index: 1000;
   background-color: white;
+}
+
+#iframe-container {
+  position: absolute;
+  top: 100%;
+  right: 2%;
+}
+
+.iframe {
+  width: 20vw;
+  height: auto;
+  z-index: 1000;
 }
 
 .middle-header {
