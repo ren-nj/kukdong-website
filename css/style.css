@@ -828,6 +828,10 @@ h6 {
     margin-top: 0;
 }
 
+.icon-block-description > ul > li {
+    list-style-type: none;
+}
+
 /* Icon Left*/
 
 .icon-left .icon {
