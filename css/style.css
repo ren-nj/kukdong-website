@@ -42,6 +42,10 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, blockquote
     direction: ltr;
 }
 
+li {
+    list-style-type: none;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -826,10 +830,6 @@ h6 {
 
 .icon-block p {
     margin-top: 0;
-}
-
-.icon-block-description > ul {
-    list-style-type: none;
 }
 
 /* Icon Left*/
