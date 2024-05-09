@@ -358,6 +358,10 @@ section {
     margin-right: 15px;
 }
 
+#nav-main li {
+    padding: 0 24px;
+}
+
 #navigation-logo {
     display: none;
 }
