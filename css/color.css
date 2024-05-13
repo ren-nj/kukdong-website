@@ -1,0 +1,325 @@
+/* Namari Landing Page Dynamic Style Index
+
+1. Website Default Styling
+2. Navigation
+3. Primary and Secondary Colors
+4. Banner
+5. Typography
+6. Buttons
+7. Footer
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 1. Website Default Styling */
+/*------------------------------------------------------------------------------------------*/
+
+:root {
+    --color-blue: rgb(59, 61, 126);
+    --color-lightblue: rgb(196, 219, 242);
+    --color-gray: rgb(213, 214, 217);
+    --color-brown: rgb(200, 143, 100);
+    --color-orange: rgb(214, 80, 17);
+}
+
+body {
+    background:#fff;
+}
+
+/* Default Link Color */
+
+a {
+    color:var(--color-blue);
+}
+
+a:hover, #header.nav-solid nav a:hover {
+    color:var(--color-blue);
+}
+
+/* Default Icon Color */
+
+.icon i {
+    color:var(--color-blue);
+}
+
+/* Border Color */
+
+#banner .section-heading:before, .testimonial.classic footer:before {
+    background: var(--color-blue);
+}
+
+.pricing-block-content:hover {
+    border-color:var(--color-blue);
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 2. Navigation */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Transparent Navigation Color on a Banner */
+
+#header nav a, #header i {
+    color:#111;
+}
+
+
+/* Navigation Colors when the Navigation is sticky and solid */ 
+
+#header.nav-solid, #header.nav-solid a, #header.nav-solid i, #nav-mobile ul li a {
+    color:#333;
+}
+
+
+/* Navigation Active State */
+
+#header.nav-solid .active {
+    color: var(--color-blue);
+    border-color: var(--color-blue);
+}    
+
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 3. Primary and Secondary Colors */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Primary Background and Text Colors */
+
+.primary-color, .featured .pricing {
+    background-color:var(--color-blue);
+}
+
+.primary-color, .primary-color .section-title, .primary-color .section-subtitle, .featured .pricing, .featured .pricing p {
+    color:#fff;    
+}
+
+.section-heading h1 {
+    font-weight: bold;
+    color: var(--color-blue);
+}
+
+.section-heading h1:after {
+    background:var(--color-orange);
+    content:"";
+    display:block;
+    width:30px;
+    height:5px;
+    margin-top:30px;
+}
+
+.text-center .section-heading h2:after {
+    margin:30px auto 25px auto;
+}
+
+/* Primary Icon Colors */
+
+.primary-color .icon i, .primary-color i {
+    color:#fff;
+}
+
+
+/* Secondary Background and Text Colors */
+
+.secondary-color {
+    background-color:#f5f5f5;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 4. Banner */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Banner Background and Text Colors */
+
+#banner {
+    background-image: linear-gradient(
+      115deg,
+      rgba(196, 219, 242, 0.8),
+      rgba(213, 214, 217, 0.7)),
+    url(../img/mainpage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 5. Typography */
+/*------------------------------------------------------------------------------------------*/
+
+
+body {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:15px;
+    font-weight:normal;
+    color:#111;
+}
+
+/* Banner Typography */
+
+#banner h1 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:60px;
+    line-height:65px;
+    color:var(--color-blue);
+}
+
+#banner h2 {
+    
+    color:#111;
+}
+
+
+/* Section Title and Subtitle */
+
+.section-title {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 34px; 
+    font-weight:700;
+    color:#111;
+}
+
+.section-subtitle {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 16px;
+    font-weight:300;
+    color:#9c9c9c;
+}
+
+/* Testimonial */
+
+.testimonial q {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 17px; 
+    font-weight:300;
+}
+
+.testimonial>ul>li, .testimonial.classic footer {
+    color:#505050;
+}
+
+
+/* Standard Headings h1-h6 */
+
+h1 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 40px; 
+    font-weight:300;
+    color:#111;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 34px; 
+    font-weight:300;
+    color:#111;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 30px; 
+    font-weight:700;
+    color:#111;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 18px; 
+    font-weight:400;
+    color:#111;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 16px; 
+    font-weight:400;
+    color:#111;
+}
+
+h6 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 14px; 
+    font-weight:400;
+    color:#111;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 6. Buttons */
+/*------------------------------------------------------------------------------------------*/
+
+/* ----------Default Buttons---------- */
+
+
+/* Button Text */
+
+.button, input[type="submit"]  {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:14px;
+    font-weight:bold;
+    color:#111;
+}
+
+
+/* Button Color */
+
+.button, input[type="submit"] {
+    border-color:#111;
+}
+
+
+/* Button Hover Color */
+
+.button:hover,  input[type="submit"]:hover {
+    border-color:var(--color-blue);
+    color:var(--color-blue);
+}
+
+
+/* ----------Banner Buttons---------- */
+
+
+/* Button Text */
+
+#banner .button {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:20px;
+    color: white;
+}
+
+
+/* Button Color */
+
+#banner .button {
+    border: none;
+    background-color: var(--color-orange);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Button Hover Color */
+
+#banner .button:hover {
+    color:var(--color-gray);
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 7. Footer */
+/*------------------------------------------------------------------------------------------*/
+
+#landing-footer, #landing-footer p, #landing-footer a {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:12px;
+    font-weight:normal;
+    color:#999;
+}
+
+/* Footer Icon Color */
+
+#landing-footer i {
+    color:#999;
+}
