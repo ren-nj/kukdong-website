@@ -162,7 +162,7 @@ body {
 
 #banner h1 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size:60px;
+    font-size: 60px;
     line-height:65px;
     color:var(--color-blue);
 }
